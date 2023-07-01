@@ -189,7 +189,9 @@ namespace Gamekit2D
         public class InputAxis
         {
             public KeyCode positive;
+            public KeyCode positive2;
             public KeyCode negative;
+            public KeyCode negative2;
             public XboxControllerAxes controllerAxis;
             public float Value { get; protected set; }
             public bool ReceivingInput { get; protected set; }
@@ -241,8 +243,8 @@ namespace Gamekit2D
                 }
                 else if (inputType == InputType.MouseAndKeyboard)
                 {
-                    positiveHeld = Input.GetKey(positive);
-                    negativeHeld = Input.GetKey(negative);
+                    positiveHeld = Input.GetKey(positive) || Input.GetKey(positive2);
+                    negativeHeld = Input.GetKey(negative) || Input.GetKey(negative2);
                 }
 
                 if (positiveHeld == negativeHeld)

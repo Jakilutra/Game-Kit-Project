@@ -360,11 +360,15 @@ MonoBehaviour:
     m_Enabled: 1
   Horizontal:
     positive: 100
+    positive2: 275
     negative: 97
+    negative2: 276
     controllerAxis: 1
   Vertical:
     positive: 119
+    positive2: 273
     negative: 115
+    negative2: 274
     controllerAxis: 2
   dataSettings:
     dataTag: PlayerInput
@@ -1656,6 +1660,7 @@ MonoBehaviour:
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
