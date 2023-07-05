@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Jack's Mod/Level 1.unity
+    path: Assets/Jack's Mod/Test Level.unity
     guid: f5f5efcb95979e449aae31213b04af8d
   - enabled: 0
     path: Assets/2DGamekit/Scenes/Start.unity
@@ -50,4 +50,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Jack's Mod/Level 1.unity
+    guid: 57bc3be3b5a2f5647a1ed92bdf663de8
+  - enabled: 1
+    path: Assets/Jack's Mod/Level 2.unity
+    guid: 26d22d4dc573d474e891c2723f4a4a84
+  - enabled: 1
+    path: Assets/Jack's Mod/Level 3.unity
+    guid: b1e08edad80ff2945bdd7369f69407e9
+  - enabled: 1
+    path: Assets/Jack's Mod/Level 4.unity
+    guid: 2265fe90ea106ed4a9ab32d2c75f1c33
+  - enabled: 1
+    path: Assets/Jack's Mod/Level 5.unity
+    guid: 5805c9a7952c99744aa8c3eef096921c
   m_configObjects: {}
